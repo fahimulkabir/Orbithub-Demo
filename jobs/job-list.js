@@ -55,11 +55,19 @@ const jCategory = [
     title: "Hubble Space Telescope",
     by: "<a href='#' target='__blank__'>Jhon Doe</a>",
     abastract:
-      "Artemis I, formerly Exploration Mission-1,will be the first integrated flight test of NASA’s Deep Space Exploration Systems: the Orion spacecraft, Space Launch System (SLS) rocket, with the newly upgraded Exploration Ground Systems at Kennedy Space Center in Cape Canaveral, Florida.",
+      "The Hubble Space Telescope is a space telescope that was launched into orbit by the Space Shuttle Discovery on April 24, 1990. It is named after Edwin Hubble, an American astronomer who made significant contributions to our understanding of the universe.",
     description:
-      "Named in honor of the trailblazing astronomer Edwin Hubble, the Hubble Space Telescope is a large, space-based observatory, which has revolutionized astronomy since its launch and deployment by the space shuttle Discovery in 1990. Far above rain clouds, light pollution, and atmospheric distortions, Hubble has a crystal-clear view of the universe. Scientists have used Hubble to observe some of the most distant stars and galaxies yet seen, as well as the planets in our solar system. Hubble’s capabilities have grown immensely in its over 30 years of operation. This is because new, cutting-edge scientific instruments have been added to the telescope over the course of five astronaut servicing missions. By replacing and upgrading aging parts, these servicing missions have greatly extended the telescope’s lifetime. Telescopes have a particular range of light that they can detect. Hubble’s domain extends from the ultraviolet through the visible (which our eyes see) and into the near-infrared. This range has allowed Hubble to deliver stunning images of stars, galaxies, and other astronomical objects that have inspired people around the world and changed our understanding of the universe.",
+      "The Hubble Space Telescope is a reflecting telescope, which means that it uses mirrors to collect and focus light. It has a primary mirror that is 2.4 meters (7.9 feet) in diameter, which is much larger than the mirrors of ground-based telescopes. This allows the Hubble Space Telescope to see objects that are much fainter and smaller than ground-based telescopes can see." +
+      "<br>" +
+      "The Hubble Space Telescope orbits Earth at an altitude of about 569 kilometers (352 miles). This allows it to avoid the distortion of Earth's atmosphere, which can blur images taken from ground-based telescopes." +
+      "<br>" +
+      "The Hubble Space Telescope has made many important discoveries, including:" +
+      "<li>The expansion of the universe</li>" +
+      "<li>The existence of black holes</li>" +
+      "<li>The formation of stars and galaxies</li>" +
+      "<li>The composition of the atmospheres of exoplanets</li>",
     workplace: "Work from home",
-    role: "Technical Expertise, Mission Planning and Analysis, Technological Innovation",
+    role: "Technical Expertise, Development and Operation, Scientific and Engineering Expertise",
     requirements:
       "<li>Aerospace engineering skills</li>" +
       "<li>Expertise in space science</li>" +
@@ -67,9 +75,9 @@ const jCategory = [
       "<li>Mission planning expertise</li>" +
       "<li>New technology proposals</li>",
     documentation:
-      "<a href='' target='__blank__'>Artemis I</a>" +
+      "<a href='' target='__blank__'>History</a>" +
       "<br>" +
-      "<a href='' target='__blank__'>Artemis I Map</a>",
+      "<a href='' target='__blank__'>Images</a>",
     timeline: "December 2023",
   },
   {
@@ -101,11 +109,15 @@ const jCategory = [
     title: "Juno: Mission at Jupiter",
     by: "<a href='#' target='__blank__'>Jhon Doe</a>",
     abastract:
-      "Artemis I, formerly Exploration Mission-1,will be the first integrated flight test of NASA’s Deep Space Exploration Systems: the Orion spacecraft, Space Launch System (SLS) rocket, with the newly upgraded Exploration Ground Systems at Kennedy Space Center in Cape Canaveral, Florida.",
+      "Juno is a NASA spacecraft that is orbiting Jupiter. It was launched on August 5, 2011, and entered orbit around Jupiter on July 4, 2016. Juno's mission is to study Jupiter's atmosphere, interior, and magnetic field.",
     description:
-      "On August 5, 2011, NASAs Juno spacecraft embarked on a 5-year journey to our solar system's largest planet the gas giant Jupiter. Its mission: to probe beneath the planet's dense clouds and answer questions about the origin and evolution of Jupiter, our solar system, and giant planets in general across the cosmos. Juno arrived at Jupiter on July 4, 2016, after a 5-year, 1.7-billion-mile journey, and settled into a 53-day polar orbit stretching from just above Jupiters cloud tops to the outer reaches of the Jovian magnetosphere. Junos discoveries have revolutionized our understanding of Jupiter and solar system formation. During the prime missions 35 orbits of Jupiter, Juno collected more than three terabits (375 gigabytes) of science data and provided dazzling views of Jupiter and its satellites, all processed by citizen scientists with NASAs first-ever camera dedicated to public outreach. Junos many discoveries have changed our view of Jupiters atmosphere and interior, revealing an atmospheric weather layer that extends far beyond its clouds and a deep interior with a diluted, or fuzzy, heavy element core. Near the end of the prime mission, as the spacecrafts orbit evolved, flybys of the moon Ganymede initiated Junos transition into a full Jovian system explorer.",
+      "Juno is a NASA space probe orbiting Jupiter. It was launched on August 5, 2011, and entered orbit around Jupiter on July 4, 2016. Juno's mission is to study Jupiter's atmosphere, interior, and magnetic field. It is the first spacecraft to orbit Jupiter in polar orbit, and it is also the first spacecraft to use a solar sail to power itself. Juno has made many important discoveries about Jupiter, including:" +
+      "<li>Jupiter's atmosphere is much more dynamic than previously thought</li>" +
+      "<li>Jupiter has a strong magnetic field.</li>" +
+      "<li>Jupiter's interior is much hotter than expected.</li>" +
+      "<li>Jupiter has a deep ocean beneath its atmosphere.</li>",
     workplace: "Work from home",
-    role: "Technical Expertise, Mission Planning and Analysis, Technological Innovation",
+    role: "Technical Expertise, Oversight, Spacecraft Building, Operation, Scientific Instrumentation, Navigation, Gravity Science, Magnetometer Development",
     requirements:
       "<li>Aerospace engineering skills</li>" +
       "<li>Expertise in space science</li>" +
@@ -113,10 +125,10 @@ const jCategory = [
       "<li>Mission planning expertise</li>" +
       "<li>New technology proposals</li>",
     documentation:
-      "<a href='' target='__blank__'>Artemis I</a>" +
+      "<a href='' target='__blank__'>Juno</a>" +
       "<br>" +
-      "<a href='' target='__blank__'>Artemis I Map</a>",
-    timeline: "December 2023",
+      "<a href='' target='__blank__'>Images</a>",
+    timeline: "December 2025",
   },
   {
     index: 5,
@@ -124,21 +136,24 @@ const jCategory = [
     title: "International Space Station",
     by: "<a href='#' target='__blank__'>Jhon Doe</a>",
     abastract:
-      "Artemis I, formerly Exploration Mission-1,will be the first integrated flight test of NASA’s Deep Space Exploration Systems: the Orion spacecraft, Space Launch System (SLS) rocket, with the newly upgraded Exploration Ground Systems at Kennedy Space Center in Cape Canaveral, Florida.",
+      "The NASA QueSST (Quiet Supersonic Transport) project aims to develop a quieter supersonic aircraft, addressing the sonic boom challenge to enable faster, more sustainable air travel.",
     description:
-      "The Mars Perseverance rover mission is part of NASA's Mars Exploration Program, a long-term effort of robotic exploration of the Red Planet. The Mars Perseverance mission addresses high-priority science goals for Mars exploration, including key questions about the potential for life on Mars. The mission takes the next step by not only seeking signs of habitable conditions on Mars in the ancient past, but also searching for signs of past microbial life itself. The Mars Perseverance rover introduces a drill that can collect core samples of the most promising rocks and soils and set them aside in a cache on the surface of Mars. The mission also provides opportunities to gather knowledge and demonstrate technologies that address the challenges of future human expeditions to Mars. These include testing a method for producing oxygen from the Martian atmosphere, identifying other resources (such as subsurface water), improving landing techniques, and characterizing weather, dust, and other potential environmental conditions that could affect future astronauts living and working on Mars.",
-    workplace: "Work from home",
-    role: "Technical Expertise, Mission Planning and Analysis, Technological Innovation",
-    requirements:
-      "<li>Aerospace engineering skills</li>" +
-      "<li>Expertise in space science</li>" +
-      "<li>Proficiency in propulsion systems</li>" +
-      "<li>Mission planning expertise</li>" +
-      "<li>New technology proposals</li>",
-    documentation:
-      "<a href='' target='__blank__'>Artemis I</a>" +
+      "NASA's aeronautical innovators are leading a government-industry team to collect data that could make supersonic flight over land possible, dramatically reducing travel time in the United States or anywhere in the world." +
       "<br>" +
-      "<a href='' target='__blank__'>Artemis I Map</a>",
+      "The Quesst mission has two goals: 1) design and build NASA’s X-59 research aircraft with technology that reduces the loudness of a sonic boom to a gentle thump to people on the ground; and 2) fly the X-59 over several U.S. communities to gather data on human responses to the sound generated during supersonic flight and deliver that data set to U.S. and international regulators." +
+      "<br>" +
+      "Using this data, new sound-based rules regarding supersonic flight over land can be written and adopted, which would open the doors to new commercial cargo and passenger markets to provide faster-than-sound air travel." +
+      "<br>" +
+      "<br>" +
+      "Elements of NASA's Quesst mission are organized within two of the agency's aeronautics programs -- the Advanced Air Vehicles Program and the Integrated Aviation Systems Program -- and managed by a systems project office whose members span both programs and all four of NASA's aeronautical research field centers: Langley Research Center in Virginia; Glenn Research Center in Cleveland; and Ames Research Center and Armstrong Flight Research Center, which are both located in California.",
+    workplace: "Work from home",
+    role: "Sonic Boom Reduction, Technological Advancements, Sustainable Air Travel, Future of Supersonic Flight",
+    requirements:
+      "Three important requirements for the NASA QueSST (Quiet Supersonic Transport) project are:" +
+      "<li>Sonic Boom Reduction: One of the primary requirements is to develop technology that significantly reduces the sonic boom produced during supersonic flight, making it more acceptable near populated areas.</li>" +
+      "<li>Aerodynamic Efficiency: The aircraft design must prioritize aerodynamic efficiency to minimize drag and fuel consumption, ensuring economic and sustainable operation</li>" +
+      "<li>Quiet Engine Technology: Incorporating advanced and quiet engine technologies is crucial to reducing noise pollution and achieving the project's goal of a quieter supersonic transport system.</li>",
+    documentation: "<a href='' target='__blank__'>Nasa's Research</a>",
     timeline: "December 2023",
   },
   {
@@ -170,21 +185,18 @@ const jCategory = [
     title: "Parker Solar Probe",
     by: "<a href='#' target='__blank__'>Jhon Doe</a>",
     abastract:
-      "Artemis I, formerly Exploration Mission-1,will be the first integrated flight test of NASA’s Deep Space Exploration Systems: the Orion spacecraft, Space Launch System (SLS) rocket, with the newly upgraded Exploration Ground Systems at Kennedy Space Center in Cape Canaveral, Florida.",
+      "Parker Solar Probe is a NASA spacecraft that is currently orbiting the Sun. It was launched on August 12, 2018, and it is expected to make its closest approach to the Sun in 2025",
     description:
-      "In order to unlock the mysteries of the Sun's atmosphere, Parker Solar Probe uses Venus’ gravity during seven flybys over nearly seven years to gradually bring its orbit closer to the Sun. The spacecraft will fly through the Sun’s atmosphere as close as 3.8 million miles to our star’s surface, well within the orbit of Mercury and more than seven times closer than any spacecraft has come before. (Earth’s average distance to the Sun is 93 million miles.) Flying into the outermost part of the Sun's atmosphere, known as the corona, for the first time, Parker Solar Probe employs a combination of in situ measurements and imaging to revolutionize our understanding of the corona and expand our knowledge of the origin and evolution of the solar wind. It also makes critical contributions to our ability to forecast changes in Earth's space environment that affect life and technology on Earth.",
+      "The Parker Solar Probe is a NASA spacecraft that is studying the Sun's atmosphere, or corona, in unprecedented detail. The spacecraft is about the size of a washing machine and is equipped with a suite of instruments that will help scientists understand how the corona is heated and how it interacts with the solar wind. The spacecraft will make its closest approach to the Sun at a distance of just 4 million miles (6.4 million kilometers), which is closer than any spacecraft has ever been to the Sun. The spacecraft's heat shield is made of a special material called carbon-carbon composite that can withstand temperatures of up to 1,370 degrees Fahrenheit (750 degrees Celsius). The Parker Solar Probe is a major step forward in our understanding of the Sun and how it affects our planet.",
     workplace: "Work from home",
     role: "Technical Expertise, Mission Planning and Analysis, Technological Innovation",
     requirements:
-      "<li>Aerospace engineering skills</li>" +
-      "<li>Expertise in space science</li>" +
-      "<li>Proficiency in propulsion systems</li>" +
-      "<li>Mission planning expertise</li>" +
-      "<li>New technology proposals</li>",
-    documentation:
-      "<a href='' target='__blank__'>Artemis I</a>" +
-      "<br>" +
-      "<a href='' target='__blank__'>Artemis I Map</a>",
+      "<li>Technical Expertise</li>" +
+      "<li>Oversight</li>" +
+      "<li>Spacecraft Design and Building</li>" +
+      "<li>Heat Shield Construction</li>" +
+      "<li>Scientific Instrument Operation</li>",
+    documentation: "<a href='' target='__blank__'>Blogs</a>",
     timeline: "December 2023",
   },
   {
@@ -208,6 +220,6 @@ const jCategory = [
       "<a href='' target='__blank__'>More info</a>" +
       "<br>" +
       "<a href='' target='__blank__'>Video</a>",
-    timeline: "September 2022",
+    timeline: "September 2027",
   },
 ];
