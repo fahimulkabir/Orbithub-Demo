@@ -30,8 +30,8 @@ h3 {
   text-decoration: none;
   background: #1b2b85;
   color: #fff;
-  padding: 9px 30px;
-  border-radius: 20px;
+  padding: 10px 30px;
+  border-radius: 8px;
   cursor: pointer;
 }
 
@@ -651,6 +651,8 @@ header .logo {
   padding-bottom: 2rem;
 }
 
+/* Start Media Query */
+
 @media (max-width: 1300px) {
   .sec-space {
     padding: 4rem 0;
@@ -666,8 +668,6 @@ header .logo {
     margin: 4rem auto;
   }
 }
-
-/* Start Media Query */
 
 @media (max-width: 999px) {
   #navbar {
@@ -695,7 +695,7 @@ header .logo {
   #bar {
     display: initial;
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 2rem;
     padding-left: 20px;
   }
 
