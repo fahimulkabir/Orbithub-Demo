@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Create Project</title>
+      <link rel="stylesheet" href="style.css">
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+      <style>
+         .createProject p {
+            padding-bottom: 3rem;
+         }
+
+         .createProject label {
+            display: block;
+            font-size: 1.1rem;
+            font-weight: 600;
+         }
+
+         .createProject input,
+         .createProject textarea {
+            width: 100%;
+            padding: 20px;
+            font-size: 1rem;
+         }
+      </style>
+   </head>
+
+   <body>
+
+      <header>
+         <div class="obj-width">
+            <a href="index.html"><img class="logo" src="images/logo.png" alt=""></a>
+
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="jobs/job.html">Browse Projects</a></li>
+               <li><a href="#">Create Projects</a></li>
+               <li><a id="w-btn" href="#"><i class='bx bx-user'></i></a></li>
+
+            </ul>
+         </div>
+      </header>
+
+      <section class="createProject obj-width sec-space extra-space">
+         <h1>Create and Publish Your Project</h1>
+         <p>Welcome to our "Publish Your Project" page, where you have the opportunity to share your innovative ideas
+            and initiatives with our open source and open science community. This platform empowers you to contribute to
+            the world of technology, science, and space exploration by publishing your project for others to collaborate
+            on and support.</p>
+
+         <form action="submit_project.php" method="POST" enctype="multipart/form-data">
+            <!-- Project Image Upload -->
+            <label for="projectImage">Project Image (Upload):</label>
+            <input type="file" id="projectImage" name="projectImage" accept="image/*" required>
+            <br><br>
+
+            <!-- Project Name -->
+            <label for="projectName">Project Name:</label>
+            <input type="text" id="projectName" placeholder="Your project name ..." name="projectName" required>
+            <br><br>
+
+            <!-- Short Description -->
+            <label for="shortDescription">Short Description (30 words):</label>
+            <textarea id="shortDescription" name="shortDescription" rows="2" maxlength="30"
+               placeholder="Write short description about your project ..." required></textarea>
+            <br><br>
+
+            <!-- Brief Description -->
+            <label for="briefDescription">Brief Description about the project (100-150 words):</label>
+            <textarea id="briefDescription" placeholder="Write detailed description about your project ..."
+               name="briefDescription" rows="4" minlength="100" maxlength="150" required></textarea>
+            <br><br>
+
+            <!-- Contributor Roles -->
+            <label for="contributorRoles">Contributor Roles:</label>
+            <textarea id="contributorRoles" placeholder="Skills contributors need to have ..." name="contributorRoles"
+               rows="4" required></textarea>
+            <br><br>
+
+            <!-- Requirements -->
+            <label for="requirements">Requirements:</label>
+            <textarea id="requirements" name="requirements" placeholder="Write the requirements about your project ..."
+               rows="4" required></textarea>
+            <br><br>
+
+            <!-- Contributor Guidelines -->
+            <label for="contributorGuidelines">Contributor Guidelines:</label>
+            <textarea id="contributorGuidelines" name="contributorGuidelines" rows="4"
+               placeholder="Write guidelines about your project ..." required></textarea>
+            <br><br>
+
+            <!-- Project Documentation -->
+            <label for="projectDocumentation">Project Documentation:</label>
+            <input type="url" id="projectDocumentation" name="projectDocumentation"
+               placeholder="URL to Project Documentation" required>
+            <br><br>
+
+            <!-- Timeline and Milestones -->
+            <label for="timelineMilestones">Timeline and Milestones:</label>
+            <textarea id="timelineMilestones" name="timelineMilestones" rows="4"
+               placeholder="Timeline for this project ..." required></textarea>
+            <br><br>
+
+            <!-- Submit Button -->
+            <button id="g-btn" type="submit">Publish Project</button>
+      </section>
+
+      <footer class="footer">
+         <div class="obj-width">
+            <div class="top">
+               <div>
+                  <img class="logo" src="images/logo.png" alt="">
+                  <p>All open source projects at one place.</p>
+               </div>
+               <div>
+                  <a href="https://fontawesome.com/">
+                     <i class='bx bxl-facebook-square'></i>
+                  </a>
+                  <a href="https://fontawesome.com/">
+                     <i class='bx bxl-instagram-alt'></i>
+                  </a>
+                  <a href="https://fontawesome.com/">
+                     <i class='bx bxl-behance'></i>
+                  </a>
+                  <a href="https://fontawesome.com/">
+                     <i class='bx bxl-twitter'></i>
+                  </a>
+               </div>
+            </div>
+
+            <div class="bottom">
+               <div>
+                  <h3>Project</h4>
+                     <a href="#">Changelog</a>
+                     <a href="#">Status</a>
+                     <a href="#">License</a>
+                     <a href="#">All Versions</a>
+               </div>
+               <div>
+                  <h3>Community</h3>
+                  <a href="#">GitHub</a>
+                  <a href="#">Issues</a>
+                  <a href="#">Project</a>
+                  <a href="../coc.html"> Twitter</a>
+               </div>
+               <div>
+                  <h3>Help</h3>
+                  <a href="#">Support</a>
+                  <a href="#">Troubleshooting</a>
+                  <a href="#">Contact Us</a>
+               </div>
+               <div>
+                  <h3>Others</h3>
+                  <a href="#">Terms of Service</a>
+                  <a href="#">Privacy Policy</a>
+                  <a href="#">License</a>
+               </div>
+            </div>
+         </div>
+      </footer>
+
+   </body>
+
+</html>
