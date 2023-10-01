@@ -8,6 +8,20 @@
         <link rel="stylesheet" href="../style.css">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
+        <style>
+            .job-heading {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-start;
+            }
+
+            @media (max-width: 999px) {
+                .job-heading a {
+                    display: none;
+                }
+            }
+        </style>
     </head>
 
     <body>
@@ -19,22 +33,29 @@
 
                 <ul id="navbar">
                     <li><a href="../index.html">Home</a></li>
-                    <li><a href="#">Browse Projects</a></li>
-                    <li><a href="../createProject.html">Create Projects</a></li>
-                    <li><a id="w-btn" href="#"><i class='bx bx-user'></i></a></li>
+                    <li><a href="../users/users.html">Browse People</a></li>
+                    <li><a id="w-btn" href="../forms/welcomeform.html"><i class='bx bx-user'></i></a></li>
 
                 </ul>
             </div>
         </header>
 
         <section class="jobs obj-width sec-space extra-space">
-            <h2>Search projects for contribution</h2>
-            <p>Are you looking for open-source projects to work on?</p>
+            <div class="job-heading">
+                <div>
+                    <h2>Search projects for contribution</h2>
+                    <p>Are you looking for open-source projects to work on?</p>
+                </div>
+                <a href="../createProject.html" id="g-btn" class="position-btn">Create Project</a>
+            </div>
+
 
             <form>
                 <i class='bx bx-search-alt-2'></i>
                 <input type="text" placeholder="Search Projects ..." id="searchBar" />
             </form>
+
+
 
             <div class="jobs-container" id="root">
 

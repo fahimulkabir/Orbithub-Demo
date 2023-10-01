@@ -1,0 +1,161 @@
+#form-btn {
+  text-decoration: none;
+  background: #d9d9d9;
+  filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.15));
+  color: #6e79a2;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0.9rem 4rem;
+  border-radius: 10px;
+  transition: all 0.3s;
+  border: none;
+  cursor: pointer;
+}
+#form-btn:hover {
+  filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.15));
+}
+
+.form-heading1 {
+  color: #eee1e1;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.form-heading6 {
+  color: #7a8596;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.form-p {
+  color: #fff;
+  text-align: center;
+}
+
+.form-container {
+  margin: 5rem 0 3rem 0;
+  display: flex;
+  align-items: center;
+  /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15); */
+}
+
+.form-container .form-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-left-image {
+  width: 85%;
+}
+.form-left-image img {
+  width: 100%;
+  object-fit: cover;
+}
+.or {
+  position: relative;
+  padding: 1rem 0;
+}
+
+.or span::before {
+  content: "";
+  position: absolute;
+  background: #000;
+  width: 40px;
+  height: 1px;
+  top: 50%;
+  left: 25px;
+}
+.or span::after {
+  content: "";
+  position: absolute;
+  background: #000;
+  width: 40px;
+  height: 1px;
+  top: 50%;
+  right: 25px;
+}
+.social-group {
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.social-group img {
+  width: 25px;
+  object-fit: cover;
+}
+
+.social-group a {
+  margin: 0 0.7rem;
+}
+
+.form-container .form-right {
+  width: 50%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.form-right .shape {
+  position: relative;
+  right: -40px;
+  /* padding: 6rem 0; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  background: #7a90ba;
+}
+
+.form-right .shape .form-p {
+  padding: 2rem 0 12rem 0;
+}
+
+/* ======================= */
+
+form {
+  padding-top: 1rem;
+}
+
+.form-field {
+  display: flex;
+  align-items: center;
+  background: #ebd7d7;
+  padding: 1rem 1rem 1rem 1rem;
+  margin: 1rem 0 0 0;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.form-field input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding-left: 1rem;
+  background: transparent;
+  font-size: 1rem;
+}
+
+.form-field input::placeholder {
+  font-size: 1rem;
+}
+
+.form-field i {
+  font-size: 1.3rem;
+}
+
+.forgot {
+  float: right;
+  color: #ebe2e2;
+  text-decoration: none;
+  font-weight: 400;
+  padding: 0.3rem 0 4rem 0;
+}
+
+.action-btn {
+  width: 100%;
+}

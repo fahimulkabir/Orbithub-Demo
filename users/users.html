@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>OrbitHub - Search Projects</title>
         <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="userStyle.css">
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     </head>
@@ -19,7 +20,7 @@
 
                 <ul id="navbar">
                     <li><a href="../index.html">Home</a></li>
-                    <li><a href="#">Browse Projects</a></li>
+                    <li><a href="../jobs/job.html">Browse Projects</a></li>
                     <li><a href="../createProject.html">Create Projects</a></li>
                     <li><a id="w-btn" href="#"><i class='bx bx-user'></i></a></li>
 
@@ -28,16 +29,21 @@
         </header>
 
         <section class="jobs obj-width sec-space extra-space">
-            <h2>Search projects for contribution</h2>
-            <p>Are you looking for open-source projects to work on?</p>
+            <h2>Search Contributors</h2>
+            <p>Connect with contributors who are interested in your project.</p>
 
             <form>
                 <i class='bx bx-search-alt-2'></i>
-                <input type="text" placeholder="Search Projects ..." id="searchBar" />
+                <input type="text" placeholder="Search contributors ..." id="searchBar" />
             </form>
 
             <div class="jobs-container" id="root">
-
+                <!-- <img src="../images/users/user1.webp" alt="">
+                <div>
+                    <h3>Jhone Doe</h3>
+                    <p>Founder & CEO at Tech2 etc</p>
+                </div>
+                <span id="key">View Profile</span> -->
             </div>
         </section>
 
@@ -95,8 +101,8 @@
             </div>
         </footer>
 
-        <script src="job-List.js"></script>
-        <script src="jobSearch.js"></script>
+        <script src="user-List.js"></script>
+        <script src="userSearch.js"></script>
         <script src="../script.js"></script>
 
     </body>

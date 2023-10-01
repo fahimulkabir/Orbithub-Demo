@@ -35,6 +35,16 @@ h3 {
   cursor: pointer;
 }
 
+#kid-btn {
+  text-decoration: none;
+  background: #ffee05;
+  color: #222 !important;
+  font-weight: 600 !important;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
 .sec-space {
   padding: 4rem 0;
 }
@@ -495,6 +505,7 @@ header .logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #fff;
 }
 
 .jobs form input {
@@ -514,7 +525,7 @@ header .logo {
 
 #key {
   font-size: 0.8rem;
-  background: #ffed23;
+  background: #ffc710;
   padding: 10px 20px;
   border-radius: 20px;
 }

@@ -2,6 +2,56 @@ body {
   background-color: #f5f5f5;
 }
 
+/* User List */
+
+.userList {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1.6fr 0.4fr;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  border: 1px solid #ccc;
+  align-items: center;
+  justify-items: start;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+.userList:hover {
+  background: #ecedf1;
+}
+
+.userList.active {
+  width: 100%;
+}
+
+.userList.delete {
+  display: none;
+}
+
+.userList img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 8px solid #6a81de;
+}
+
+.userList h3 {
+  padding: 0 0 0.7rem 0;
+  font-size: 1.5rem;
+}
+
+.userList h6 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  padding: 0.3rem;
+  background: #1bb392;
+}
+
+/* User details */
+
 .headspace {
   width: 100%;
   height: 350px;
