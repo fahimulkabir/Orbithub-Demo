@@ -20,6 +20,13 @@ We're building "A Marketplace for Open Science Projects," a web app that serves 
 - Community Building: Our platform includes forums, chatrooms, and events to promote interaction and learning.
 - Accessibility: We aim to make open collaboration accessible to everyone, anywhere in the world.
 
+## Data Collect
+- NASA’s official website,
+- WEBB space telescope,
+- Double Asteroid Redirection Test (DART),
+- NASA’s Citizen Science Projects,
+- Canadian Space Agency (CSA)
+
 ## Future Implementations:
 We envision further enhancements to our platform, including:
 - Enhanced Matching: Improving the matchmaking algorithm to make it even more precise.
