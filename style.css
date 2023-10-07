@@ -448,6 +448,29 @@ header .logo {
   flex-direction: row-reverse;
 }
 
+.coming .soon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.coming .soon div {
+  width: 45%;
+  height: 380px;
+}
+
+.coming .soon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.1);
+  border: 5px solid #fff;
+  overflow: hidden;
+}
+
 /* footer */
 
 .footer {
@@ -772,5 +795,10 @@ header .logo {
 
   .shape.reverse {
     flex-direction: column-reverse;
+  }
+  .coming .soon div {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 1rem;
   }
 }
